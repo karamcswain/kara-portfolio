@@ -9,7 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preinstall": "npm install -g http-server",
     "postinstall": "ng build --aot -prod",
     "deploy": "git push origin master && git push heroku master"
   },
@@ -44,6 +43,7 @@
   "devDependencies": {
     "@types/jasmine": "2.5.38",
     "codelyzer": "~2.0.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
