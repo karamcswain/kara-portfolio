@@ -1,0 +1,17 @@
+<footer>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <div [ngClass]="['footer-logo']" fxLayout="row" fxLayoutAlign="center center" uiSref="home">
+      <img src="/assets/images/logo.png" />
+      <h2>Kara McSwain</h2>
+    </div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
+      <button md-button color="primary" uiSref="about">About</button>
+      <button md-button color="primary" uiSref="web">Web Design</button>
+      <button md-button color="primary" uiSref="photography">Photography</button>
+      <a href="mailto:karamcswain@icloud.com?Subject=Portfolio">
+        <button md-button color="primary">Contact</button>
+      </a>
+    </div>
+    <h4 [ngClass]="['copyright']">Copyright © 2017 Kara McSwain All Rights Reserved</h4>
+  </div>
+</footer>

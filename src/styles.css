@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*-----------------------------GENERAL----------------------------*/
+body {
+  color: #212121;
+  background-color: #FAFAFA;
+  margin: 0;
+  font: 300 16px/1.5 Roboto,arial,sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-weight: 400;
+}

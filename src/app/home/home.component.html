@@ -1,0 +1,32 @@
+<div [ngClass]="['home-header']">
+  <div fxLayout="column" fxLayoutAlign="start end" fxLayoutAlign.sm="center center" fxLayoutAlign.xs="center center" fxFlexFill>
+    <h1>Kara McSwain</h1>
+    <div fxLayout="row" fxLayoutAlign="start center">
+      <button [ngClass]="['home-btn']" md-button color="primary" uiSref="about">About</button>
+      <button [ngClass]="['home-btn']" md-button color="primary" uiSref="web">Web Design</button>
+      <button [ngClass]="['home-btn']" md-button color="primary" uiSref="photography">Photography</button>
+      <a href="mailto:karamcswain@icloud.com?Subject=Portfolio">
+        <button [ngClass]="['home-btn']" md-button color="primary">Contact</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div [ngClass]="['home-square-container']" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
+  <div [ngClass]="['full-width']" fxLayout="column" fxLayoutAlign="center center" fxFlex="50%">
+    <div [ngClass]="['home-square', 'home-square-1', 'full-width']" fxLayout="column" fxLayoutAlign="end end" fxLayoutAlign.xs="center center" uiSref="about">
+      <h1>Who am I?</h1>
+    </div>
+    <div [ngClass]="['home-square', 'home-square-2', 'full-width']" fxLayout="column" fxLayoutAlign="center start" fxLayoutAlign.xs="center center" uiSref="web">
+      <h1>Web Design</h1>
+    </div>
+  </div>
+  <div [ngClass]="['full-width']" fxLayout="column" fxLayoutAlign="center center" fxFlex="50%">
+    <div [ngClass]="['home-square', 'home-square-3', 'full-width']" fxLayout="column" fxLayoutAlign="end end" fxLayoutAlign.xs="center center" uiSref="photography">
+      <h1>Photography</h1>
+    </div>
+    <div [ngClass]="['home-square', 'home-square-4', 'full-width']" fxLayout="column" fxLayoutAlign="end start" fxLayoutAlign.xs="center center">
+      <h1>Contact</h1>
+    </div>
+  </div>
+</div>
