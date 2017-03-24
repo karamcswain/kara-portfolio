@@ -1,7 +1,7 @@
 {
   "name": "kara-portfolio",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "See license in README.md file",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
