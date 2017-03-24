@@ -26,12 +26,6 @@
   }
 }
 
-@media (min-width: 812px) {
-  .home-square-container {
-    height: 100vh;
-  }
-}
-
 .home-square {
   color: #FFFFFF;
   transition: box-shadow 0.3s ease-in-out;
