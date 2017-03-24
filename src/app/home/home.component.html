@@ -11,12 +11,37 @@
     </div>
   </div>
 </div>
-<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
+
+<div fxLayout="column" fxLayoutAlign="center center">
+  <div [ngClass]="['intro']" fxLayout="column" fxLayoutAlign="center center">
+    <img src="/assets/images/headshot.jpg" />
+    <h2>Hi, I'm Kara</h2>
+    <p>
+      I'm a web designer / developer based in Toronto, Canada. I have a passion for web design and love to create for web and mobile devices.
+    </p>
+  </div>
+  <div [ngClass]="['about']" fxLayout="column" fxLayoutAlign="center center">
+    <h2>What I Can Do</h2>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="40px">
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <img src="/assets/images/ama.png" />
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center start">
+        <h4>Web Design</h4>
+        <p>
+          I can design some funky fresh web sites.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center">
   <div [ngClass]="['full-width']" fxLayout="column" fxLayoutAlign="center center">
     <div [ngClass]="['home-square', 'home-square-1', 'full-width']" fxLayout="column" fxLayoutAlign="end end" fxLayoutAlign.xs="center center" uiSref="about">
       <h1>Who am I?</h1>
     </div>
-    <div [ngClass]="['home-square', 'home-square-2', 'full-width']" fxLayout="column" fxLayoutAlign="center start" fxLayoutAlign.xs="center center" uiSref="web">
+    <div [ngClass]="['home-square', 'home-square-2', 'full-width']" fxLayout="column" fxLayoutAlign="end start" fxLayoutAlign.xs="center center" uiSref="web">
       <h1>Web Design</h1>
     </div>
   </div>
@@ -28,4 +53,4 @@
       <h1>Contact</h1>
     </div>
   </div>
-</div>
+</div> -->

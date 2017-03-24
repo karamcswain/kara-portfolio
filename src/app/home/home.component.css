@@ -7,6 +7,7 @@
   height: 100vh;
   color: #FFFFFF;
   overflow: hidden;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.19), 0 3px 15px rgba(0,0,0,0.23);
 }
 
 @media (min-width: 812px) {
@@ -24,6 +25,45 @@
   .home-btn {
     font-size: 20px;
   }
+}
+
+.intro {
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.intro img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.intro h2 {
+  margin-bottom: 0;
+}
+
+.intro p {
+  text-align: center;
+  color: #757575;
+  max-width: 500px;
+}
+
+.about h2 {
+  margin-bottom: 0;
+}
+
+.about h4 {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .home-square {
@@ -59,22 +99,58 @@
 }
 
 .home-square-1 {
-  background-color: #788084;
-  height: 600px;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, .3),
+      rgba(0, 0, 0, .3)
+    ),
+    url('/assets/images/firecracker.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
 }
 
 .home-square-2 {
-  background-color: #6393AB;
-  height: 200px;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, .3),
+      rgba(0, 0, 0, .3)
+    ),
+    url('/assets/images/ama.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
 }
 
 .home-square-3 {
-  background-color: #B1B9BC;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, .3),
+      rgba(0, 0, 0, .3)
+    ),
+    url('/assets/images/fern.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   height: 500px;
 }
 
 .home-square-4 {
-  background-color: #9DCDE5;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, .3),
+      rgba(0, 0, 0, .3)
+    ),
+    url('/assets/images/motorcycle.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   height: 300px;
 }
 
